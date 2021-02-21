@@ -1,0 +1,42 @@
+4 8 1 ab bbabaaa 3
+0 1 a
+0 0 b
+1 1 a
+1 2 b
+2 0 b
+2 3 a
+3 3 a
+3 3 b   --> acceptat
+
+5 6 1 ab aabbbbbb 4
+0 1 a
+0 2 b
+1 0 a
+2 3 b
+3 4 b
+4 2 b  -->acceptat
+
+5 6 1 ab aabbbbbb 4
+0 1 a
+0 2 b
+1 0 a
+2 3 b
+3 4 b
+4 2 b -->neacceptat
+
+5 6 2 ab aabbb 0 4
+0 1 a
+0 2 b
+1 0 a
+2 3 b
+3 4 b
+4 2 b  -->acceptat
+
+5 6 2 ab abbb 0 4
+0 1 a
+0 2 b
+1 0 a
+2 3 b
+3 4 b
+4 2 b  -->neacceptat
+
